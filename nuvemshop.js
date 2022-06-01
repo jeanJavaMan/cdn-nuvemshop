@@ -17,8 +17,7 @@
         $('body').append("<p>I'm using jQuery version "+$.fn.jquery+'</p>');
       };
       
-      // For jQuery version 1.7
-      var target = [1, 7, 0];
+      var target = [3, 1, 0];
       
       var current = typeof jQuery === 'undefined' ? [0,0,0] : $.fn.jquery.split('.').map(function(item) {
           return parseInt(item);
